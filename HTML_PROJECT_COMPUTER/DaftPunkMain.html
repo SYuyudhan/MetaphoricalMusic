@@ -1,0 +1,250 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Daft Punk</title>
+	<link href='https://fonts.googleapis.com/css?family=Zen Loop' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+<style>
+		body {
+		box-sizing: border-box;
+		font-family: 'El Messiri';font-size: 21.5px;
+		line-height: 35px;
+		color: white;
+		background-color: #111111;
+		}
+		
+		a:link {
+		color: #ffd03e;
+		background-color: transparent;
+		text-decoration: none;
+		}
+		a:visited {
+		color: #ffd03e;
+		background-color: transparent;
+		text-decoration: none;
+		}
+		a:hover {
+		color: #ffd03e;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+		a:active {
+		color: #ffd03e;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+		
+		.wrapper {
+		z-index:1;
+		}
+		
+		#navigation {
+		float: left;
+		border: 1px solid white;
+		width: 12%;
+		padding: 10px;
+		position: fixed;
+		height: 88%
+		
+		}
+		
+		#RAM {
+		width: 100%;
+		margin: 5px 10px 5px 0;
+		
+		}
+		
+		#card1 {
+		float: right;
+		border: 1px solid white;
+		width: 19%;
+		
+		}
+		
+		table, td {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		padding-left: 5px;
+		}
+		
+		#DaftPic {
+		width: 95%;
+		padding: 0 0 0 4px;
+		
+		}
+		
+		#maincontent {
+		width: 63%;
+		padding: 0 0 0 14.5%;
+		
+		}
+
+		#maincontent2 {
+		width: 80%;
+		padding: 0 0 0 14.5%;
+		
+		}
+		
+		h1, h2, h3 {
+		font-family: 'Zen Loop';
+		font-size: 46px;
+		margin-bottom: -10px;
+		
+		}
+		
+		h1 {
+		font-size: 66px;
+		margin-bottom: -5px;
+		
+		}
+		
+		span {
+		line-height: 55px; 
+		font-family: 'Zen Loop';
+		font-size: 40px;
+		
+		}
+		#myVideo {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		z-index: -1;
+		}
+		.toggle {
+		position: fixed;
+		padding: 0;
+		margin: 10px;
+		}
+
+		.toggle:checked ~ .myVideo {
+		display: block;
+		}
+		
+		
+		.myVideo {
+		display: none;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		z-index: -1;
+		}
+</style>
+
+</head>
+
+
+<body>
+<div class="wrapper">
+	<input class="toggle" type="checkbox"> &nbsp &nbsp &nbsp Click me
+	<video autoplay muted loop class="myVideo">
+		<source src="DaftPunkBG.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+	</video>	
+	<div id="card1" class="flex-item">
+		<div id="card1list">
+			<table>
+				<tr><td style="text-align: center;"> <img src="Pictures/DaftPic.jpg" id="DaftPic"> </td></tr>
+				<tr><td>Origin	-	Paris, France</td></tr>
+				<tr><td>Genres	-	French house/electronic/dance/disco <td></tr>
+				<tr><td>Years active	-	1993–2021 </td></tr>
+				<tr><td>Labels		-	Daft Life/Columbia/Virgin/Soma/Parlophone/Warner/Walt Disney</td></tr>
+				<tr><td>Spinoff of	-	Darlin'</td></tr>
+				<tr><td>Past members	-	Thomas Bangalter &nbsp Guy-Manuel de Homem-Christo</td></tr>
+				<tr><td>Website	-	<a href="https://daftpunk.com/">daftpunk.com</td></tr>
+				<tr><td><hr size="2px" color="grey" align="center" width="90%"></td></tr>
+				<tr><td>Touch ft. Paul Williams</td></tr>
+				<tr><td><audio controls>
+						<source src="Music/Touch_DaftPunk.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio>		</td></tr>
+				<tr><td>One More Time</td></tr>
+				<tr><td><audio controls>
+						<source src="Music/OneMoreTime_DaftPunk.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio>		</td></tr>
+			</table>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-item" id="navigation">
+		<img src="Pictures/DaftPunk.jpg" align="center" id="RAM">
+
+		<span><b> Contents- </b> </span>
+		<ul style="list-style-type:circle;">
+		<li><a href="#1">Daft Punk</a></li>
+		<li><a href="#2">Early career/Darlin'</a></li>
+		<li><a href="#3">Homework/Discovery</a></li>
+		<li><a href="#4">Random Access Memory </a></li>
+		<li><a href="#5">Disbandment</a></li>
+		</ul>
+		<span><b>Our Website </b> </span>
+		<ul style="list-style-type:circle;">
+		<li><a href="TheMainPage.html">Main Page</a></li>
+		<li><a href="NujabesMain.html">Nujabes</a></li>
+		<li><a href="BillWithersMain.html">Bill Withers</a></li>
+		<li><a href="HomeMain.html">Home</a></li>
+		<li><a href="YungBaeMain.html">Yung Bae</a></li>
+		</ul>
+		</div>
+		
+		
+		<div class="flex-item" id="maincontent">
+ 
+		<h1><a id="1">Daft Punk</a></h1>
+		<hr size="2px" color="grey" align="left" width="103%">
+		
+		<p>Daft Punk were a French electronic music duo formed in 1993 in Paris by Thomas Bangalter and Guy-Manuel de Homem-Christo. They achieved popularity in the late 1990s as part of the French house movement, combining elements of house music with funk, disco, rock and pop. They garnered acclaim and commercial success and are regarded as one of the most influential acts in dance music.
+		<br>
+		Bangalter and Homem-Christo formed Daft Punk after their indie rock band Darlin' disbanded and began experimenting with drum machines and synthesisers. Their debut studio album, 	Homework, was released by Virgin Records in 1997 to positive reviews, backed by the singles "Around the World" and "Da Funk". From 1999, Daft Punk assumed robot personas for public appearances, with helmets, outfits and gloves to disguise their identities; they made few media appearances. They were managed from 1996 to 2008 by Pedro Winter, the head of Ed Banger Records.
+		<br>
+		In 2013, Daft Punk left Virgin for Columbia Records and released their fourth and final album, Random Access Memories, to acclaim; the lead single, "Get Lucky", reached the top 10 in the charts of 27 countries. Random Access Memories won five Grammy Awards in 2014, including Album of the Year and Record of the Year for "Get Lucky". In 2016, Daft Punk gained their only number one on the Billboard Hot 100 with "Starboy", a collaboration with the Weeknd. In 2015, Rolling Stone ranked them the 12th greatest musical duo of all time. They announced their split in 2021. 
+		</p>
+		
+		<h2><a id="2"> 1987–1992: Early career and Darlin' </a></h2>
+		<hr size="2px" color="grey" align="left" width="103%">
+		<p>Guy-Manuel de Homem-Christo and Thomas Bangalter met in 1987 while attending the Lycée Carnot secondary school in Paris. In 1992, they formed a guitar group, Darlin', with Bangalter on bass, Homem-Christo on guitar, and Laurent Brancowitz on guitar and drums. The trio named themselves after the Beach Boys song "Darlin'", which they covered along with an original composition. 
+
+		Darlin' disbanded after around six months, having produced four songs and played two gigs. Bangalter described the project as "pretty average". Brancowitz pursued music with another band, Phoenix. Bangalter and Homem-Christo formed Daft Punk and experimented with drum machines and synthesizers. The name was taken from a negative review of Darlin' in Melody Maker by Dave Jennings, who dubbed their music "a daft punky thrash". The band found the review amusing. Homem-Christo said, "We struggled so long to find [the name] Darlin', and [this name] happened so quickly."
+		</p>
+		</div>
+		<div id="maincontent2" class="flex-item">
+		<h2><a id="3">Homework/Discovery</a></h2>
+		<hr size="2px" color="grey" align="left" width="103%">
+		<p>Daft Punk released their debut album, Homework, in 1997. The most successful single from Homework was "Around the World". "Da Funk" was also included on The Saint film soundtrack. Daft Punk produced a series of music videos for Homework directed by Spike Jonze, Michel Gondry, Roman Coppola and Seb Janiak. The videos were collected in 1999 as D.A.F.T.: A Story About Dogs, Androids, Firemen and Tomatoes.
+<br>
+		Bangalter and Homem-Christo both created record labels after the release of their debut album, releasing solo projects from themselves and their friends on Roulé and Crydamoure respectively. Homem-Christo released music as a member of Le Knight Club with Eric Chedeville, and Bangalter released music as a member of Together with DJ Falcon and founded the group Stardust with Alan Braxe and Benjamin Diamond. In 1998, Stardust released their only song, the chart hit "Music Sounds Better With You". <br><br>
+		
+		
+		Daft Punk's second album, Discovery, was released in 2001. The duo said it was an attempt to reconnect with the playful, open-minded attitude associated with the discovery phase of childhood. The album reached No. 2 in the UK, and its lead single, "One More Time", was a hit. The song is heavily autotuned and compressed. The singles "Digital Love" and "Harder, Better, Faster, Stronger" were also successful in the UK and on the US Dance Chart, and "Face to Face" hit number one on the US club play charts.
+<br>
+		Discovery created a new generation of Daft Punk fans. It also saw Daft Punk debut their distinctive robot costumes; they had previously worn Halloween masks or bags for promotional appearances. Discovery was later named one of the best albums of the decade. Daft Punk partnered with the Japanese manga artist Leiji Matsumoto to create Interstella 5555, a feature-length animation set to Discovery. The finished film was released on DVD in 2003. That December, Daft Punk released Daft Club, a compilation of Discovery remixes. In 2001, Daft Punk released a 45-minute excerpt from a Daftendirektour performance as Alive 1997. <br><br>
+		
+		</p>
+		
+		<h2> <a id="4">Random Access Memory</a> </h2>
+		<hr size="2px" color="grey" align="left" width="103%">
+		<p>
+		Daft Punk recorded their fourth studio album, Random Access Memories, with musicians including Julian Casablancas, Todd Edwards, DJ Falcon, Panda Bear, Chilly Gonzales, Paul Williams, Pharrell Williams, Chic frontman Nile Rodgers and Giorgio Moroder. Daft Punk left Virgin for Sony Music Entertainment through the Columbia Records label.
+<br>
+		Random Access Memories was released on 20 May 2013. The lead single, "Get Lucky", became Daft Punk's first UK number-one single and the most-streamed new song in the history of Spotify. At the 2013 MTV Video Music Awards, Daft Punk debuted a trailer for their single "Lose Yourself to Dance" and presented the award for "Best Female Video" alongside Rodgers and Pharrell.In December, they revealed a music video for the song "Instant Crush", directed by Warren Fu and featuring Julian Casablancas.
+<br>
+		At the 56th Annual Grammy Awards, Random Access Memories won the Grammy for Best Dance/Electronica Album, Album of the Year and Best Engineered Album, Non-Classical, while "Get Lucky" received the Grammy for Best Pop Duo/Group Performance and Record of the Year. Daft Punk performed at the ceremony with Stevie Wonder, Rodgers, and Pharrell, as well as Random Access Memories rhythm section players Nathan East, Omar Hakim, Paul Jackson, Jr. and Chris Caswell.
+		</p>
+		
+		<h2> <a id="5">Disbandment </a></h2>
+		<hr size="2px" color="grey" align="left" width="103%">
+		<p>
+		On 22 February 2021, Daft Punk released a video on their YouTube channel titled "Epilogue". The video features a scene from their 2006 film Electroma, in which one robot explodes and the other walks away; a title card created with Warren Fu reads "1993–2021" while an excerpt of Daft Punk's song "Touch" plays. Later that day, Daft Punk's longtime publicist Kathryn Frazier confirmed that the duo had split, but did not give a reason for their disbandment. The news led to a surge in Daft Punk sales, with digital album purchases rising by 2,650 percent.[94] Their friend and collaborator Todd Edwards clarified that Bangalter and Homem-Christo remain active separately.
+		<br>
+		On 22 February 2022, one year after their disbandment, Daft Punk announced the digital release of a 25th anniversary edition of Homework, featuring a newly collected remix album of Homework and uploads of behind the scenes "archives" from the D.A.F.T. DVD. The remix album was later released on physical formats. The same day as the anniversary announcement, the band held a one-time Twitch stream of their performance at the Mayan Theater in Los Angeles from their 1997 Daftendirektour. The video featured previously unreleased footage of the duo without costumes. Vinyl reissues of the band's albums continued regularly throughout 2022.
+		</p>
+		</div>
+
+	</div>
+</body>
+</html> 
